@@ -1,0 +1,59 @@
+/* Dark Theme Styles */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+.logo-img {
+  max-width: 200px;
+}
+
+section {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  color: #bb86fc;
+}
+
+.skill-box {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+a {
+  color: #bb86fc;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #1f1f1f;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #212121 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #e0e0e0 !important;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: #bb86fc !important;
+}
