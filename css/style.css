@@ -1,3 +1,44 @@
 html {
   scroll-behavior: smooth;
 }
+
+#contact {
+  background-color: #6c757d; /* Bootstrap secondary color */
+  color: white;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#contact a {
+  color: #f8f9fa;
+  text-decoration: underline;
+}
+
+#contact a:hover {
+  color: #e2e6ea;
+  text-decoration: none;
+}
+
+.contact-form .form-control {
+  background-color: #495057;
+  border: none;
+  color: white;
+}
+
+.contact-form .form-control::placeholder {
+  color: #ced4da;
+}
+
+.contact-form .btn {
+  background-color: white;
+  color: #6c757d;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.contact-form .btn:hover {
+  background-color: #e2e6ea;
+  color: #495057;
+}
